@@ -44,8 +44,8 @@ def initialize():
     webhook = input("Enter webhook > ")
     name = input("Enter webhook name > ")
     message = input("Enter message > ")
-    delay = input("Enter delay [int/float] > ")
-    amount = input("Enter amount [int/inf] > ")
+    delay = input("Enter delay > ")
+    amount = input("Enter amount > ")
     hookDeleter = input("Delete webhook after spam? [Y/N] > ")
     try:
         delay = float(delay)
